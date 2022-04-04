@@ -1,0 +1,323 @@
+/**
+* **************************************************
+* General Styles
+* **************************************************
+**/
+
+.owl-carousel-play .owl-controls{
+  display: block;
+}
+.opalmedical-recent-service{
+  /*margin-top: 200px;*/
+}
+#opal-masthead .header-main {
+    position: relative; 
+}
+.white-popup{
+  background: #fff none repeat scroll 0 0;
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  position: relative;
+  width: auto;
+}
+
+.appointment-form label {
+  position: relative;
+  display: inline;
+}
+.appointment-form label {
+    top:  45px;
+    color: #f55f5f;
+    font-size: 12px;
+    height: auto;
+    line-height: 32px;
+    position: absolute;
+    text-align: center;
+    visibility: visible;
+    z-index: 999;
+}
+
+.appointment-form-v2 input, button, select, textarea {
+
+}
+.appointment-form-v2 .error{
+  color: red;
+}
+/**
+* **************************************************
+* Doctor Styles
+* **************************************************
+**/
+.archive-opalmedical-container .first-child {
+    clear: both;
+}
+.widget-medical-categories-doctor .widget-categories-doctor-content {
+  padding: 30px; }
+.widget-medical-doctor .doctor-list-style-v2 .entry-title {
+  font-size: 76px;
+  font-family: "Playball";
+  height: auto;
+  font-weight: normal;
+  margin: 0; }
+.widget-medical-doctor .doctor-list-style-v2 .doctor-lef {
+  margin-top: 120px; }
+.widget-medical-doctor .doctor-list-style-v2 .doctor-job {
+  font-size: 21px;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  background: url("../images/icon-1.html") no-repeat left bottom;
+  margin-bottom: 40px;
+  padding-bottom: 40px; }
+.widget-medical-doctor .doctor-list-style-v2 .doctor-description a {
+  display: inherit;
+  margin-top: 15px; }
+.widget-medical-doctor .doctor-list-style {
+  border-bottom: 1px solid #e8e7e4;
+  padding-bottom: 50px;
+  margin-bottom: 50px; }
+  .widget-medical-doctor .doctor-list-style .doctor-info {
+    border: 1px solid #e8e7e4;
+    text-align: center; }
+  .widget-medical-doctor .doctor-list-style .doctor-social {
+    border-bottom: 1px solid #e8e7e4;
+    padding: 10px 0; }
+    .widget-medical-doctor .doctor-list-style .doctor-social a {
+      width: 34px;
+      height: 34px;
+      border: 1px solid #c0bebd;
+      color: #c0bebd;
+      margin: 0 3px;
+      text-align: center;
+      line-height: 34px;
+      border-radius: 100%;
+      display: inline-block; }
+      .widget-medical-doctor .doctor-list-style .doctor-social a:hover {
+        color: #d25513; }
+  .widget-medical-doctor .doctor-list-style .doctor-categories {
+    padding: 20px 0; }
+  .widget-medical-doctor .doctor-list-style .entry-title {
+    font-size: 36px;
+    font-family: "Playball";
+    height: auto;
+    font-weight: normal;
+    margin: 40px 0 0; }
+  .widget-medical-doctor .doctor-list-style .doctor-job {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "PT Sans", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px; }
+.widget-medical-doctor .doctor-grid-style .doctor-info {
+  background: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  position: relative; }
+.widget-medical-doctor .doctor-grid-style .doctor-social {
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  top: -20px;
+  left: 0;
+  right: 0;
+  width: 100%; }
+  .widget-medical-doctor .doctor-grid-style .doctor-social a {
+    width: 34px;
+    height: 34px;
+    color: #c0bebd;
+    margin: 0 3px;
+    text-align: center;
+    line-height: 34px;
+    border-radius: 100%;
+    background: white;
+    display: inline-block; }
+    .widget-medical-doctor .doctor-grid-style .doctor-social a:hover {
+      color: #d25513; }
+.widget-medical-doctor .doctor-grid-style .entry-title {
+  height: 30px;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: normal;
+  margin: 0; }
+  .widget-medical-doctor .doctor-grid-style .entry-title a {
+    font-size: 16px;
+    font-family: "PT Sans", sans-serif; }
+.widget-medical-doctor .doctor-grid-style .doctor-job {
+  font-size: 16px;
+  font-family: "Playball";
+  color: #d25513; }
+
+.doctor-one .doctor-grid-style {
+  margin-top: 30px; }
+.doctor-one .doctor-box-image {
+  border-radius: 100%;
+  width: 116px;
+  overflow: hidden;
+  display: inline-block;
+  padding: 4px;
+  border: 3px solid #d25513; }
+  .doctor-one .doctor-box-image img {
+    border-radius: 100%; }
+.doctor-one .widget-medical-doctor .doctor-grid-style .doctor-info {
+  background: transparent; }
+
+.widget-medical-doctor .entry-content {
+  text-align: center;
+}
+
+.doctor-list {
+  padding: 10px;
+  margin: 0px;
+}
+.doctor-list .doctor-left{
+  text-align: center;
+}
+
+/**
+* Single doctor
+*/
+.opalmedical-contact-form button{
+  margin:auto;
+  width: 100%;
+}
+
+/**
+* **************************************************
+* Department Styles
+* **************************************************
+**/
+
+.first-child{
+  clear: both;
+}
+.opalmedical-recent-departments .opal-doctor-department{
+  margin: 10px 10px 10px -20px;
+  text-align: center;
+  min-height: 280px;
+}
+.opalmedical-recent-departments .opal-doctor-department .opal-department-icon .opal-icon{
+  font-style: normal;
+}
+
+/**
+* **************************************************
+* Service Styles
+* **************************************************
+**/
+
+.opalmedical-recent-service .nav-tabs{
+}
+.opalmedical-recent-service .service-box-image-tab{position: relative;}
+.opalmedical-recent-service .service-box-image-tab a{
+  display: none;
+}
+.opalmedical-recent-service .service-box-image-tab a.active{display: inline;}
+@media (min-width: 769px) {
+  .opalmedical-recent-service .service-box-image-tab a{
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    opacity: 0; 
+    display: inherit;
+  }
+  .opalmedical-recent-service .service-box-image-tab a.active{ 
+    -webkit-transition: all .25s ease;
+       -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+         -o-transition: all .25s ease;
+            transition: all .25s ease;
+    visibility: visible;
+    opacity: 1;
+    display: inherit;
+  }
+}
+
+.opalmedical-recent-service article{   
+}
+.opalmedical-recent-service .service-categories{
+  color: #ccc;
+}
+.list-group-item-text .row{
+  border-top:1px solid #ccc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.service-right .entry-content{
+  text-align: left!important;
+}
+
+/**
+* **************************************************
+* Appointment Styles
+* **************************************************
+**/
+
+.appointment_date {
+    background-image: url("../img/calendar-512.png");
+    background-repeat: no-repeat;
+    background-position: right 8px;
+    background-size: 30px 30px;
+}
+
+.opalmedical-recent-appointment .appointment-form input ,.appointment-form select{ 
+}
+.ftextarea {  
+}
+
+
+.appointment-form .form-group label {
+  position: relative;
+  display: inline;
+}
+.appointment-form .form-group label {
+  background: #ff141c none repeat scroll 0 0;
+  border-radius: 6px;
+  box-shadow: 0 0 5px #800000;
+  color: #ffffff;
+  font-size: 10px;
+  height: auto;
+  left: 50%;
+  margin-left: -76px;
+  opacity: 0.6;
+  padding: 5px;
+  position: absolute;
+  text-align: left;
+  visibility: visible;
+  width: 80%;
+  z-index: 999;
+}
+.appointment-form .form-group label:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -8px;
+  width: 0; height: 0;
+  border-bottom: 8px solid #FF141C;
+  border-right: 8px solid transparent;
+  border-left: 8px solid transparent;
+}
+
+.loading {
+  display:    block !important;
+  position:   fixed;
+  z-index:    1000;
+  top:        0;
+  left:       0;
+  height:     100%;
+  width:      100%;
+  background: rgba( 255, 255, 255, .8 )
+              url('../img/bx_loader.gif')
+              50% 50%
+              no-repeat;
+}
+
